@@ -428,18 +428,17 @@ section .title::after{
   background: none;
 }
 /* social start here */
-.social.title::after{
-    content: "Follow me on";
+.social .title::after{
+    content: "Connect with me";
 }
-.social .social-handles .handle{
-    height :45%;
-    width :70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-   
+
+
+.sm_icon{
+ 
+    width: 150px;
+    margin-left: 100px;
+    /* the height is adjusted automatically*/
+  }
 
 
 /* footer section styling */
